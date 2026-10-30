@@ -1,52 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="js/" defer></script>
+    <script src="js/main.js" defer></script>
     <title> MYTHIRAI ARENA </title>
 </head>
 <body class="bg-[url('./assets/imegs/arena_ground.jpg')] bg-cover bg-no-repeat bg-fixed">
-    <header class="bg-black h-[60px] bg-black">
-        <nav>
-            <ul class="flex justify-evenly text-amber-500 items-center">
-                <li><a href=""> HOME </a></li>
-                <li><a href=""> SHOP </a></li>
-                <li><a href=""> OPENING </a></li>
-                <li><a href=""> GRIMOIR </a></li>
-                <li><a href=""> DICK </a></li>
-                <li><a href=""> ARENA </a></li>
-            </ul>
+    <header>
+            <nav id="nav-bar" class=" bg-black h-[60px] bg-no-repeat">
+                <ul class="flex justify-evenly mb-50 text-amber-500 ">
+                    <li><a href="#"> HOME </a></li>
+                    <li><a href="#"> SHOP </a></li>
+                    <li><a href="#"> OPENING </a></li>
+                    <li><a href="#"> GRIMOIR </a></li>
+                    <li><a href="#"> DICK </a></li>
+                    <li><a href="#"> ARENA </a></li>
+                </ul>
         </nav>
     </header>
     <main>
-        <section class="h-[1000px] grid grid-cols-[3fr_1fr] gap-6 my-[40px]">
+        <section class="h-screen grid grid-cols-[3fr_1fr] gap-6 my-[10px]">
             <div class="grid grid-rows-[1fr_3fr_1fr] gap-[9px]">
-                 <div class="border-[2px] rounded-[10px] grid grid-cols-[1fr_2fr_1fr] justify-between p-[7px] gap-[5px]"> 
+                 <div class="border-[2px] rounded-[10px] grid grid-cols-[1fr_2fr_1fr] justify-between p-[7px] gap-[5px]" id="ai-side"> 
                     <div class="border-[2px] rounded-[10px]"></div>
-                    <div class="border-[2px] rounded-[10px]"></div>
+                    <div class="border-[2px] rounded-[10px] grid grid-cols-[1fr_1fr_1fr_1fr_1fr] p-[3px] gap-[3px]">
+                       <div class="border-[1px] rounded-[5px] hover:scale-105"></div>
+                        <div class="border-[1px] rounded-[5px] hover:scale-105"></div>
+                        <div class="border-[1px] rounded-[5px] hover:scale-105"></div>
+                        <div class="border-[1px] rounded-[5px] hover:scale-105"></div>
+                        <div class="border-[1px] rounded-[5px] hover:scale-105"></div> 
+                    </div>
                     <div class="border-[2px] rounded-[10px]"></div>
                 </div>
                 
-                <div  class="border-[2px] rounded-[10px] grid grid-cols-[1fr_3fr_1fr] p-[6px] gap-[5px]">
-                    <div class="border-[2px] rounded-[10px]"></div>
-                    <div class="border-[2px] rounded-[10px]"></div>
-                    <div class="border-[2px] rounded-[10px]"></div>
+                <div  class="border-[2px] rounded-[10px] grid  p-[6px] gap-[5px]  ">
+                    <div class="border-[2px] rounded-[10px] bg-[url('./assets/imegs/arena_area.jpg')]  bg-center bg-no-repeat"></div>
                 </div>
 
 
-                <div class="border-[2px] rounded-[10px] grid grid-cols-[1fr_2fr_1fr] justify-between p-[7px] gap-[5px]"> 
+                <div class="border-[2px] rounded-[10px] grid grid-cols-[1fr_2fr_1fr] justify-between p-[7px] gap-[5px]" id="user-side"> 
                     <div class="border-[2px] rounded-[10px]"></div>
-                    <div class="border-[2px] rounded-[10px]"></div>
+                    <div class="border-[2px] rounded-[10px] grid grid-cols-[1fr_1fr_1fr_1fr_1fr] p-[3px]">
+                        <div class="border-[1px] rounded-[5px] hover:scale-105"></div>
+                        <div class="border-[1px] rounded-[5px] hover:scale-105"></div>
+                        <div class="border-[1px] rounded-[5px] hover:scale-105"></div>
+                        <div class="border-[1px] rounded-[5px] hover:scale-105"></div>
+                        <div class="border-[1px] rounded-[5px] hover:scale-105"></div>
+                    </div>
                     <div class="border-[2px] rounded-[10px]"></div>
                 </div>
 
             </div>
             <div class="border-[2px] h-full rounded-[8px] grid grid-rows-[2fr_3.5fr_2fr] p-[7px] gap-[5px]">
-                <div class="border-[2px] rounded-[10px]"></div>
-                <div class="border-[2px] rounded-[10px]"></div>
-                <div class="border-[2px] rounded-[10px]"></div>
+                <div class="border-[2px] rounded-[10px] bg-black"></div>
+                <div class="border-[2px] rounded-[10px] flex justify-center">
+                    <button class=" border-[2px] rounded-[10px] border-none bg-black text-white h-[50px] w-[80px] mt-[225px] hover:bg-blue-400 hover:text-black"> start</button>
+                </div>
+                <div class="border-[2px] rounded-[10px] bg-black"></div>
             </div>
         </section>
     </main>
