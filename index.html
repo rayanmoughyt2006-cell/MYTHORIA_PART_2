@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="js/main.js" defer></script>
+    <script  type="module" src="js/main.js" defer></script>
     <title> MYTHIRAI ARENA </title>
 </head>
 <body class="bg-[url('./assets/imegs/arena_ground.jpg')] bg-cover bg-no-repeat bg-fixed">
     <header>
-            <nav id="nav-bar" class=" bg-black h-[60px] bg-no-repeat">
-                <ul class="flex justify-evenly mb-50 text-amber-500">
-                    <li><a href="#"> HOME </a></li>
-                    <li><a href="#"> SHOP </a></li>
-                    <li><a href="#"> OPENING </a></li>
-                    <li><a href="#"> GRIMOIR </a></li>
-                    <li><a href="#"> DICK </a></li>
-                    <li><a href="#"> ARENA </a></li>
-                </ul>
-        </nav>
+           <nav class="sticky top-0 flex justify-around h-[20vh] ">
+                    <ul class="flex gap-5 items-center  font-serif text-2xl uppercase  mr-10">
+                            <a href="../mythoria/index.html" class=" h-10 w-auto  text-amber-300 transition hover:scale-125"> Home </a>
+                            <a href="../mythoria/shop.html" class=" h-10 w-auto  text-amber-500 transition hover:scale-125"> Shop </a>
+                            <a href="../mythoria/chamber.html" class=" h-10 w-auto  text-amber-500 transition hover:scale-125"> Open </a>
+                            <a href="../mythoria/grimoire.html" class=" h-10 w-auto  text-amber-500 transition hover:scale-125"> Collection </a>
+                            <a href="../mythoria/deck.html" class=" h-10 w-auto  text-amber-500 transition hover:scale-125"> Deck </a>
+                            <a href="./MYTHORIA_PART_2/index.html" class=" h-10 w-auto  text-amber-500 transition hover:scale-125"> Arena </a>
+
+                           
+                    </ul>
+            </nav>
     </header>
     <main>
         <section class="h-screen grid grid-cols-[3fr_1fr] gap-6 my-[10px]">
@@ -26,11 +28,11 @@
                  <div class="border-[2px] rounded-[10px] grid grid-cols-[1fr_2fr_1fr] justify-between p-[7px] gap-[5px]" id="ai-side"> 
                     <div class="border-[2px] rounded-[10px]"></div>
                     <div class="border-[2px] rounded-[10px] grid grid-cols-[1fr_1fr_1fr_1fr_1fr] p-[3px] gap-[3px]">
-                       <div class="border-[1px] rounded-[5px] hover:scale-105"></div>
-                        <div class="border-[1px] rounded-[5px] hover:scale-105"></div>
-                        <div class="border-[1px] rounded-[5px] hover:scale-105"></div>
-                        <div class="border-[1px] rounded-[5px] hover:scale-105"></div>
-                        <div class="border-[1px] rounded-[5px] hover:scale-105"></div> 
+                       <div class="border-[1px] rounded-[5px] hover:scale-105"><button class="translate-x-[45%] translate-y-[45%] "><img src="./assets/imegs/icons8-plus.png" alt="icons pur ajoute les cart"></button></div>
+                        <div class="border-[1px] rounded-[5px] hover:scale-105"><button class="translate-x-[45%] translate-y-[45%] "><img src="./assets/imegs/icons8-plus.png" alt="icons pur ajoute les cart"></button></div>
+                        <div class="border-[1px] rounded-[5px] hover:scale-105"><button class="translate-x-[45%] translate-y-[45%] "><img src="./assets/imegs/icons8-plus.png" alt="icons pur ajoute les cart"></button></div>
+                        <div class="border-[1px] rounded-[5px] hover:scale-105"><button class="translate-x-[45%] translate-y-[45%] "><img src="./assets/imegs/icons8-plus.png" alt="icons pur ajoute les cart"></button></div>
+                        <div class="border-[1px] rounded-[5px] hover:scale-105"><button class="translate-x-[45%] translate-y-[45%] "><img src="./assets/imegs/icons8-plus.png" alt="icons pur ajoute les cart"></button></div> 
                     </div>
                     <div class="border-[2px] rounded-[10px]"></div>
                 </div>
@@ -42,21 +44,23 @@
 
                 <div class="border-[2px] rounded-[10px] grid grid-cols-[1fr_2fr_1fr] justify-between p-[7px] gap-[5px]" id="user-side"> 
                     <div class="border-[2px] rounded-[10px]"></div>
-                    <div class="border-[2px] rounded-[10px] grid grid-cols-[1fr_1fr_1fr_1fr_1fr] p-[3px]">
-                        <div class="border-[1px] rounded-[5px] hover:scale-105"></div>
-                        <div class="border-[1px] rounded-[5px] hover:scale-105"></div>
-                        <div class="border-[1px] rounded-[5px] hover:scale-105"></div>
-                        <div class="border-[1px] rounded-[5px] hover:scale-105"></div>
-                        <div class="border-[1px] rounded-[5px] hover:scale-105"></div>
+                    <div class="border-[2px] rounded-[10px] grid grid-cols-[1fr_1fr_1fr_1fr_1fr] p-[3px] gap-[3px]">
+                        <div class="border-[1px] rounded-[5px] hover:scale-105"> <button class="translate-x-[45%] translate-y-[45%] btnajoute"><img src="./assets/imegs/icons8-plus.png" alt="icons pur ajoute les cart"></button></div>
+                        <div class="border-[1px] rounded-[5px] hover:scale-105"> <button class="translate-x-[45%] translate-y-[45%] btnajoute"><img src="./assets/imegs/icons8-plus.png" alt="icons pur ajoute les cart"></button></div>
+                        <div class="border-[1px] rounded-[5px] hover:scale-105"> <button class="translate-x-[45%] translate-y-[45%] btnajoute"><img src="./assets/imegs/icons8-plus.png" alt="icons pur ajoute les cart"></button></div>
+                        <div class="border-[1px] rounded-[5px] hover:scale-105"> <button class="translate-x-[45%] translate-y-[45%] btnajoute"><img src="./assets/imegs/icons8-plus.png" alt="icons pur ajoute les cart"></button></div>
+                        <div class="border-[1px] rounded-[5px] hover:scale-105"> <button class="translate-x-[45%] translate-y-[45%] btnajoute"><img src="./assets/imegs/icons8-plus.png" alt="icons pur ajoute les cart"></button></div>
                     </div>
-                    <div class="border-[2px] rounded-[10px]"></div>
+                    <div class="border-[2px] rounded-[10px] flex justify-center  hover:bg-blue-400 hover:text-black" id="choisicart"></div>
                 </div>
 
             </div>
             <div class="border-[2px] h-full rounded-[8px] grid grid-rows-[2fr_3.5fr_2fr] p-[7px] gap-[5px]">
                 <div class="border-[2px] rounded-[10px] bg-black"></div>
-                <div class="border-[2px] rounded-[10px] flex justify-center">
-                    <button class=" border-[2px] rounded-[10px] border-none bg-black text-white h-[50px] w-[80px] mt-[225px] hover:bg-blue-400 hover:text-black"> start</button>
+                <div class="border-[2px] rounded-[10px] flex flex-col justify-center items-center gap-[5px]" id="divrandom">
+                    <p class=" font-serif font-bold text-amber-300 text-center " id="player-start"></p>
+                    <button class=" border-[2px] rounded-[10px] border-none bg-black text-white h-[50px] w-[80px] hover:bg-blue-400 hover:text-black" id="start-btn"> start</button>
+
                 </div>
                 <div class="border-[2px] rounded-[10px] bg-black"></div>
             </div>
