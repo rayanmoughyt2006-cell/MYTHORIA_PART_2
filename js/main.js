@@ -1,8 +1,7 @@
 import { ajoutelescart } from "./ui.js"
 import { fixeData } from "./cards.js"
-
+import { ajoutecarta } from "./ui.js"
 let test = await fixeData();
-console.log(test);
 const choisicart = document.getElementById("choisicart")
 const startbutton = document.getElementById("start-btn")
 const playerstart = document.getElementById("player-start");
@@ -20,4 +19,5 @@ function start() {
     })
 }
 ajoutelescart();
+ajoutecarta();
 start();
