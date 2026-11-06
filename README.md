@@ -1,3 +1,3 @@
-#mon PROJECT a VERCEL
+#mon PROJECT a github pages 
 
-https://mythoraiparttow.vercel.app/
+ https://rayanmoughyt2006-cell.github.io/MYTHORIA_PART_2/
